@@ -54,6 +54,10 @@ header a:hover{
     text-decoration: underline;
 }
 
+footer > a:hover{
+    text-decoration: underline;
+}
+
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
