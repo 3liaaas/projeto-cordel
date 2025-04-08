@@ -50,21 +50,19 @@ header a, footer a{
     font-weight: bolder;
 }
 
-header a:hover{
+header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
-footer a:hover{
-    text-decoration: underline;
-}
+
 
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 70px;
+    padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     
 }
 
@@ -87,20 +85,20 @@ section.imagem{
 
 section.imagem > p{
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     background-color:rgba(0, 0, 0, 0.555);
     text-shadow: 0.5px 5px 4px black;
     
 }
 
 section#img01{
-    background-image: url(imagens/background001.jpg);
+    background-image: url('imagens/background001.jpg');
     background-position: right center;
     
 }
 
 section#img02{
-    background-image: url(imagens/background002.jpg);
+    background-image: url('imagens/background002.jpg');
 
     
 }
